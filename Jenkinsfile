@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage{('git clone or git pull')}{
       steps {
-        git url: 'https://github.com/kyungwon3/test2.git', branch: 'master'
+        git url: 'https://github.com/musuys/test2.git', branch: 'master'
       }
     }
     stage{(' docker image build and push to p-registry')}{
